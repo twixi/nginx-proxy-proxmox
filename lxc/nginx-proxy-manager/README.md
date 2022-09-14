@@ -47,6 +47,10 @@ If you are not using proxmox or want to install this on a existing Alpine box, y
 wget --no-cache -qO - https://raw.githubusercontent.com/ej52/proxmox/main/lxc/nginx-proxy-manager/setup.sh | sh
 ```
 
-## Thanks
+first make sure you have a valid version of alpine installed (i have 3.16) in your local CT Templates.
+nano create.sh
+then, change _os_version to whatever version you have in CT Templates
+_os_version = 3.16
+chmod +x create.sh
+./create.sh 
 
-- [whiskerz007](https://github.com/whiskerz007?tab=repositories)
