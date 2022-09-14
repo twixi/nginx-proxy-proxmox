@@ -34,7 +34,7 @@ function error {
 _raw_base="https://raw.githubusercontent.com/twixi/nginx-proxy-proxmox/tree/main/lxc/nginx-proxy-manager"
 # Operating system
 _os_type=alpine
-_os_version=3.12
+_os_version=3.16
 # System architecture
 _arch=$(dpkg --print-architecture)
 
